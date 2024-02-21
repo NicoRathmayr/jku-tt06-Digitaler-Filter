@@ -1,3 +1,17 @@
+// Copyright 2024 Nico Rathmayr
+// 
+// LicensedundertheApacheLicense,Version2.0(the"License"); 
+// youmaynotusethisfileexcept incompliancewiththeLicense. 
+// YoumayobtainacopyoftheLicenseat 
+// 
+// http://www.apache.org/licenses/LICENSE−2.0 
+// 
+// Unlessrequiredbyapplicablelaworagreedtoinwriting,software 
+// distributedundertheLicenseisdistributedonan"ASIS"BASIS, 
+// WITHOUTWARRANTIESORCONDITIONSOFANYKIND,eitherexpressor implied. 
+// SeetheLicenseforthespecificlanguagegoverningpermissionsand 
+// limitationsundertheLicense.
+
 `default_nettype none
 `timescale 1ns/1ps
 
