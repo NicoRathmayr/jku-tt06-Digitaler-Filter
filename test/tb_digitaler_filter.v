@@ -1,13 +1,13 @@
 `default_nettype none
 `timescale 1ns/1ps
-`include "tt_um_digitaler_filter.v"
+`include "tt_um_digitaler_filter_rathmayr.v"
 /*
 this testbench just instantiates the module and makes some convenient wires
 that can be driven / tested by the cocotb test.py
 */
 
 // testbench is controlled by test.py
-module tb;
+module tb_digitaler_filter;
 
     // gjfu
     // wire up the inputs and outputs
@@ -18,8 +18,8 @@ module tb;
     reg [7:0] const_h_i;
     
 
-    tt_um_digitaler_filter 
-filter(
+    tt_um_digitaler_filter_rathmayr 
+tt_um_digitaler_filter_rathmayr(
     // include power ports for the Gate Level test
     //`ifdef GL_TEST
      //   .VPWR( 1'b1),
