@@ -26,7 +26,7 @@ Ursprünglich war die Programmierung des Filters mit vier Koeffizienten geplant,
 
 ## How to test
 
-Explain how to use your project
+siehe Testbench.
 
 ## External hardware
 
